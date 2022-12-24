@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>courses</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div ng-controller="courses_ctr">
+      <ul class="list-group">
+        <li class="list-group-item" ng-repeat="cur in course">
+        {{cur}}</li>
+      </ul>
+
+    </div>
+
+  </body>
+</html>
